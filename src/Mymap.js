@@ -15,13 +15,15 @@ const Map = () => {
 
   const onEachFeature = (feature, layer) => {
     if (feature.properties) {
-      let popupContent = '<PopupContent>'; // Add a default content or customize as needed
-
-      // Iterate through GeoJSON properties and add them to the popup
+      let popupContent = '<table class="popup-table">'; // Start the table
+  
+      // Iterate through GeoJSON properties and add them to the table
       for (const [key, value] of Object.entries(feature.properties)) {
-        popupContent += `<br /><strong>${key}:</strong> ${value}`;
+        popupContent += `<tr><td><strong>${key}</strong></td><td>${value}</td></tr>`;
       }
-
+  
+      popupContent += '</table>'; // End the table
+  
       layer.bindPopup(popupContent);
     }
   };
@@ -34,7 +36,7 @@ const Map = () => {
     >
       {/* Add a tile layer (replace with your preferred tile provider) */}
       <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
 

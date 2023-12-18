@@ -1,6 +1,7 @@
 import React from 'react';
 import Map from './Mymap';
 import 'leaflet/dist/leaflet.css';
+import './App.css';
 
 const App = () => {
   return (
