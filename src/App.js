@@ -2,12 +2,24 @@ import React from 'react';
 import Map from './Mymap';
 import 'leaflet/dist/leaflet.css';
 import './App.css';
+import Header from './Header';
+
 
 const App = () => {
+  
+
+  
   return (
     <div>
-      <h1>NMC Map</h1>
-      <Map />
+      
+      <header>
+      <Header/>   
+      </header>
+      
+        
+      <Map   />
+     
+      
     </div>
   );
 };

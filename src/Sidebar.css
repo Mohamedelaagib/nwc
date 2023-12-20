@@ -1,0 +1,53 @@
+
+
+.sidebar {
+    width: 30rem;
+    height: 100%;
+    background-color: #f5f5f5; /* Light background color, you can adjust the color code */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+    text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 40px 25px 20px;
+  height: 100%;
+  }
+  
+  .statistics-container {
+    margin-top: 1vw;
+    
+  }
+  
+  .statistic-card {
+    background-color: #fff; /* Card background color */
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for each card */
+    font-size: .8em;
+    align-items: center;
+    
+  }
+  
+  .statistic-label {
+    font: 1em georgia;
+    font-weight: bold;
+    
+   
+    color: #58575c; /* Label color */
+  }
+  
+  .statistic-value {
+    margin-top: 1rem;
+    color: #4474a3; /* Value color */
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  
+  .sidebar h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size:1.3rem ;
+    color: #4474a3;
+
+  }
