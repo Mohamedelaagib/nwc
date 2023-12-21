@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/nwc/static/css/main.e18b4eef.css",
-    "main.js": "/nwc/static/js/main.e02b4974.js",
+    "main.css": "/nwc/static/css/main.291d1b60.css",
+    "main.js": "/nwc/static/js/main.b21235e7.js",
     "static/js/787.68077548.chunk.js": "/nwc/static/js/787.68077548.chunk.js",
     "static/media/WCBLOCKS_q1.geojson": "/nwc/static/media/WCBLOCKS_q1.9732f9a09af1b7b6f16e.geojson",
     "static/media/WCBLOCKS_Point.geojson": "/nwc/static/media/WCBLOCKS_Point.37946875770156a92225.geojson",
     "static/media/FooterLogo.svg": "/nwc/static/media/FooterLogo.59b3a368d10d064b01342c15b461db52.svg",
     "index.html": "/nwc/index.html",
-    "main.e18b4eef.css.map": "/nwc/static/css/main.e18b4eef.css.map",
-    "main.e02b4974.js.map": "/nwc/static/js/main.e02b4974.js.map",
+    "main.291d1b60.css.map": "/nwc/static/css/main.291d1b60.css.map",
+    "main.b21235e7.js.map": "/nwc/static/js/main.b21235e7.js.map",
     "787.68077548.chunk.js.map": "/nwc/static/js/787.68077548.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e18b4eef.css",
-    "static/js/main.e02b4974.js"
+    "static/css/main.291d1b60.css",
+    "static/js/main.b21235e7.js"
   ]
 }
