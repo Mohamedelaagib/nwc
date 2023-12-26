@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="170" viewBox="0 0 1920 170">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="1920" height="170" fill="rgba(0,0,0,0.05)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_7790" data-name="Rectangle 7790" width="1920" height="242" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.259"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.149"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5d5d5d"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="np_drop_99592_000000" x="779.341" y="-336.1" width="1304.868" height="1610.703" filterUnits="userSpaceOnUse">
+      <feOffset dx="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="38.5" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5d5d5d"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.506"/>
+    </linearGradient>
+    <filter id="np_drop_99592_000000-2" x="-126.447" y="-460.461" width="1262.103" height="1459.142" filterUnits="userSpaceOnUse">
+      <feOffset dx="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="38.5" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5a5a5a"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="np_drop_99592_000000-3" x="340.344" y="-1081.74" width="1525.02" height="1789.201" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur-3"/>
+      <feFlood flood-opacity="0.678"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Header" clip-path="url(#clip-path)">
+    <g id="NWC-Header-BG">
+      <g id="Header-2" data-name="Header" clip-path="url(#clip-path-2)">
+        <g id="Group_20253" data-name="Group 20253">
+          <rect id="Rectangle_8029" data-name="Rectangle 8029" width="1920" height="242" fill="#0070cd"/>
+          <rect id="Rectangle_8030" data-name="Rectangle 8030" width="1920" height="242" fill="url(#linear-gradient)"/>
+          <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#np_drop_99592_000000)" style="mix-blend-mode: overlay;isolation: isolate">
+            <path id="np_drop_99592_000000-4" data-name="np_drop_99592_000000" d="M1073.868,531.937C1073.868,237.615,832.5,0,536.934,0S0,237.615,0,531.937,479.7,1379.7,536.934,1379.7C591.093,1379.7,1073.868,824.771,1073.868,531.937Z" transform="translate(1959.71 1159.1) rotate(180)" opacity="0.1" fill="url(#linear-gradient-2)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#np_drop_99592_000000-2)" style="mix-blend-mode: overlay;isolation: isolate">
+            <path id="np_drop_99592_000000-5" data-name="np_drop_99592_000000" d="M1031.1,473.5C1031.1,211.513,799.351,0,515.552,0S0,211.513,0,473.5s460.592,754.638,515.552,754.638C567.554,1228.142,1031.1,734.169,1031.1,473.5Z" transform="translate(1011.16 883.18) rotate(180)" opacity="0.083" fill="url(#linear-gradient-3)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#np_drop_99592_000000-3)" style="mix-blend-mode: overlay;isolation: isolate">
+            <path id="np_drop_99592_000000-6" data-name="np_drop_99592_000000" d="M1227.02,574.924C1227.02,256.818,951.233,0,613.51,0S0,256.818,0,574.924,548.108,1491.2,613.51,1491.2C675.393,1491.2,1227.02,891.424,1227.02,574.924Z" transform="translate(1716.36 558.46) rotate(180)" stroke="#fff" stroke-width="1" opacity="0.1" fill="url(#linear-gradient-4)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

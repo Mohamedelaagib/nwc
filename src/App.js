@@ -1,27 +1,23 @@
-import React from 'react';
-import Map from './Mymap';
-import 'leaflet/dist/leaflet.css';
+import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
+import MainPage from './MainPage';
+import './Assets/fontawesome.css';
 
-
-const App = () => {
-  
-
-  
+function App() {
   return (
-    <div>
+    <div className="App">
       
-      <header>
-      <Header/>   
-      </header>
-      
-        
-      <Map   />
      
-      
+    <MainPage/>
+
+
+
+
+
+
+
     </div>
   );
-};
+}
 
 export default App;

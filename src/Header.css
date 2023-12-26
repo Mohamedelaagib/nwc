@@ -1,29 +1,39 @@
 /* Header.css */
 
-.header {
+.headerCotent {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
     display: flex;
     align-items: center;
     justify-content:space-between;
     padding: 10px 20px;
-    background: rgb(0,212,255);
-    background: linear-gradient(17deg, rgba(0,212,255,1) 40%, rgba(9,9,121,1) 72%, rgba(2,0,36,1) 100%);
-    color: #fff;
+    background-image: url('./Assets/Header.svg');
+
+    
   }
   
   .logo-container {
+    display: flex;
     margin-right: 20px;
     
   }
   
   .logo {
-    max-width: 200px; 
+    max-width: 150px; 
     height: auto;
   }
   
   .company-name {
-    font-size: 1.5rem; 
-    font-weight: bold;
-    align-items:center;
+    align-self: center ;
     
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem; 
+    font-weight: 900;
+  
+    
+    text-align: center;
+    align-items:center;
+    color: #ffffff;
   }
   

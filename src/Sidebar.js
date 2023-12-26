@@ -1,30 +1,29 @@
-// Sidebar.jsx
-
-import React from 'react';
-import './Sidebar.css'; 
+import * as React from 'react';
+import RecipeReviewCard from './Card';
+import { useState } from 'react';
+import { Paper,Card } from '@mui/material';
 import Legend from './Legand';
+import SelectArea from './SelectArea';
 
-const Sidebar = ({ statistics }) => {
-  return (
-    <div className="sidebar">
-      
-      <div className="statistics-container">
-        {Object.entries(statistics).map(([label, value]) => (
-          <div className="statistic-card" key={label}>
-            <div className="statistic-label">{label}</div>
-            <div className="statistic-value">{value}</div>
-          
-          </div>
+const SideBar = ({Statisc,  map })=>{
 
-        ))}
+    console.log('Statistics')
+    
+    console.log(Statisc)
+    console.log('Statistics')
+   
+    
+    return(
+    <>
+   
+    <RecipeReviewCard  StatiscticValues={Statisc}/>
+    <Paper sx={{background: 'rgb(255,255,255,.4)', padding:'2px', margin:'2px', marginTop:'40px'} } >
+        <Legend/>
+    </Paper>
+    
+    </>
+
         
-      <div>
-      <Legend/>
-      </div>
-      </div>
-      
-    </div>
-  );
-};
-
-export default Sidebar;
+    )
+}
+export default SideBar;
