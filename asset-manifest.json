@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nwc/static/css/main.9e902d79.css",
-    "main.js": "/nwc/static/js/main.d11c588b.js",
+    "main.css": "/nwc/static/css/main.cf4ceb2c.css",
+    "main.js": "/nwc/static/js/main.080657c9.js",
     "static/js/787.68077548.chunk.js": "/nwc/static/js/787.68077548.chunk.js",
     "static/media/WCBLOCKS_q1.geojson": "/nwc/static/media/WCBLOCKS_q1.9732f9a09af1b7b6f16e.geojson",
     "static/media/WCBLOCKS_Point.geojson": "/nwc/static/media/WCBLOCKS_Point.37946875770156a92225.geojson",
@@ -16,12 +16,12 @@
     "static/media/water-drop-in-bg.svg": "/nwc/static/media/water-drop-in-bg.50b6f35b640c8e79c80bd1f1f1928008.svg",
     "static/media/mobile.svg": "/nwc/static/media/mobile.cbdc79f1d7605399c46428a69e4b5a6b.svg",
     "static/media/waterc.svg": "/nwc/static/media/waterc.4d972f3ddf68a8b85cb2aa59994c4867.svg",
-    "main.9e902d79.css.map": "/nwc/static/css/main.9e902d79.css.map",
-    "main.d11c588b.js.map": "/nwc/static/js/main.d11c588b.js.map",
+    "main.cf4ceb2c.css.map": "/nwc/static/css/main.cf4ceb2c.css.map",
+    "main.080657c9.js.map": "/nwc/static/js/main.080657c9.js.map",
     "787.68077548.chunk.js.map": "/nwc/static/js/787.68077548.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e902d79.css",
-    "static/js/main.d11c588b.js"
+    "static/css/main.cf4ceb2c.css",
+    "static/js/main.080657c9.js"
   ]
 }
