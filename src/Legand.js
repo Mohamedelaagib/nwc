@@ -1,25 +1,17 @@
-import { useEffect } from "react";
-import L from "leaflet";
+import React from 'react';
+import './Legend.css';
 
-
-function Legend({ map }) {
-  
-  useEffect(() => {
-    if (map) {
-      const legend = L.control({ position: "bottomright" });
-
-      legend.onAdd = () => {
-        const div = L.DomUtil.create("div", "info legend");
-        div.innerHTML =
-          "<h4>This is the legend</h4>" +
-          "<b>Lorem ipsum dolor sit amet consectetur adipiscing</b>";
-        return div;
-      };
-
-      legend.addTo(map);
-    }
-  }, [map]);
-  return null;
+const Legend = () => {
+    return (
+        <div className="legend">
+            <div className='Lname'>Pilgrim/ WC Distribution</div>
+            <div style={{ "--color": '#960707'}}>Above 120</div>
+            <div style={{ "--color": '#969407' }}>80-120</div>
+            <div style={{ "--color": '#10e929' }}>40-80</div>
+            <div style={{ "--color": '#0a4811' }}>0-40</div>
+            <div style={{ "--color": '#b6b5b5' }}>null</div>
+        </div>
+    );
 }
+export default Legend
 
-export default Legend;

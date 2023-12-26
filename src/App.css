@@ -5,13 +5,18 @@
     color: #b40d0d;
     color: #b6b5b5;
     color: #b6b5b5;
+    color: #ffffff00;
 }
 
 .nwcmap{
     display: flex;
+    flex-direction: row;
 
 
    
+}
+.mainSidebar{
+  display: flex;
 }
 
 .popup-table {
@@ -35,3 +40,22 @@
     text-align: left;
     background-color: #04AA6D;
     color: white;}
+
+    .leaflet-tooltip {
+      display: block; /* Ensure visibility */
+      /* Adjust other styles as needed */
+    }
+
+    .icon {
+      font-size: smaller;
+      
+      display: flex;
+      size: .01em;
+      border: none;
+      background: transparent;
+      color: #240854;
+      font:  sans-serif;
+      font-display: flex ;
+      font-weight: bold;
+    }
+    

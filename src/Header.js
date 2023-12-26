@@ -10,7 +10,7 @@ const Header = () => {
       <div className="logo-container">
         <img src={CompanyLogo} alt="Company Logo" className="logo" />
       </div>
-      <div className="company-name">NWC HAJJ </div>
+      <div className="company-name">NWC - HAJJ PILGRIMS \ WC </div>
     </header>
   );
 };

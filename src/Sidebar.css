@@ -51,3 +51,14 @@
     color: #4474a3;
 
   }
+  .Legandcont{
+    display: flex;
+
+    background-color: #100606; /* Card background color */
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for each card */
+    font-size: .8em;
+    align-items: center;
+  }

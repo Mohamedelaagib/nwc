@@ -1,0 +1,51 @@
+/* Your existing styles for .legend */
+.legend {
+    margin: .01rem;
+    margin-top: 15.2vh;
+    padding: .2rem;
+  
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    left: 7.6px; /* Adjust left proportionally */
+    bottom: 20px; /* Adjust bottom proportionally */
+    font-size: .5rem; /* Adjust font size proportionally */
+    font-weight: bold;
+    letter-spacing: 0px; /* Adjust letter spacing */
+    width: 100%; /* Adjust width proportionally */
+    height: 100%; /* Adjust height proportionally */
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 2px 0 rgba(140, 156, 184, 0.3);
+    border-radius: 10px; /* Adjust border radius */
+    
+}
+    
+  
+  .legend > div {
+    color: rgb(39, 34, 34);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5px; /* Adjust padding proportionally */
+    margin-bottom: 2px; /* Adjust margin proportionally */
+  }
+  
+  .legend > div::before {
+    content: "";
+    background-color: var(--color);
+    width: 1rem; /* Adjust width proportionally */
+    height: 1rem; /* Adjust height proportionally */
+    margin-right: 2px; /* Adjust margin proportionally */
+  }
+
+  .Lname{
+    font: 1.2em georgia;
+    font-weight: bold;
+    
+   
+    color: #58575c; /* Label color */
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  
