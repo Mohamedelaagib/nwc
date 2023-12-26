@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill= '#4474a3' width="21" height="30" viewBox="0 0 21 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.052" y1="0.521" x2="0.942" y2="0.815" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4fd0ec"/>
+      <stop offset="1" stop-color="#4fd0ec" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <path id="water-drop-in-bg" d="M94.6,19.313a10.5,10.5,0,1,1-21,0C73.6,13.375,84.1,0,84.1,0S94.6,13.437,94.6,19.313Z" transform="translate(-73.6)" opacity="0.15" fill="url(#linear-gradient)"/>
+</svg>
